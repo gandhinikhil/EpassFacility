@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>       
+        <link href="requestlPass.css" rel="stylesheet">
+ </head>
+ <body>
+    <div class="testbox">
+      <form action="setdatarequestpass.jsp">
+        <h1>GatePass Applying Form</h1>
+     
+         
+      <div class="item">   
+  <label for="appt">Enrollment Number</label>
+  <input type="text" id="appt" name="enroll">
+  </div>
+ 
+        <div class="item">
+          <p>Gatepass issue date</p>
+       <input type="date" id="start" name="a_date"
+       value="2020-10-19"
+       min="2020-10-19" >
+        </div>
+    
+       
+      <div class="item">   
+  <label for="appt">Select a time:</label>
+  <input type="time" id="appt" name="time">
+  </div>
+ 
+        <div class="item">
+          <p>Reason for applying gatepass</p>
+          <textarea rows="5" name="reason"></textarea>
+        </div>
+       
+        <div class="btn-block">
+          <button type="submit">Apply</button>           
+        </div>      
+      </form>     
+    </div>
+    
+  </body>
+</html>
